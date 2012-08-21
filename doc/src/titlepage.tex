@@ -1,0 +1,50 @@
+
+% --- config - start --- 
+\def\versioningFileName{versioning.tex}
+\def\mySpace{ }
+
+\newcommand{\Hrule}{\rule{\linewidth}{1mm}}
+% --- config - end --- 
+
+\thispagestyle{empty} % no headings, no footer 
+
+\date{\today}
+\enlargethispage{2cm}
+
+\small\textsf{
+    \begin{picture}(0,0)(0,0)
+        \put(0,-5){\includegraphics[height=2cm]{images/unibern_logo.png}} 
+        \put(65,0){\includegraphics[height=1cm]{images/ti-e.jpg}} 
+        \put(30,0){\includegraphics[height=1cm]{images/logo_bfh_new.png}}
+    \end{picture}
+}
+
+\vspace*{6cm}
+
+\Hrule
+
+\begin{flushright}
+    {
+     \bfseries{\huge \docTitle}\\[8mm] 
+     {\large \docSubtitle}\\
+    }
+\end{flushright}
+
+\Hrule
+
+\vspace*{1.5cm}
+\begin{flushright}
+	{
+		by \docAuthors
+	}
+\end{flushright}
+
+\vspace{\stretch{2}}
+\begin{flushright}
+%\rule{\linewidth}{0.1mm}
+\tiny\textit{last Update \today} \hfill \\
+\end{flushright}
+
+%\begin{picture}(0,0)(0,0)
+%	\put(35,100){\input{\includeDir/info-table.tex}}
+%\end{picture}

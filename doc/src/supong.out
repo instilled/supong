@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{SuPong - the game}{}
+\BOOKMARK [1][-]{section.3}{STR9x Implementation}{}
+\BOOKMARK [1][-]{section.4}{Developer Documentation}{}
+\BOOKMARK [2][-]{subsection.4.1}{Development Environment}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Directory structure}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Versioning System}{subsection.4.1}
+\BOOKMARK [2][-]{subsection.4.2}{Compiling on a x86 platform}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{STR9x version}{section.4}
+\BOOKMARK [1][-]{section.5}{User Documentation}{}
+\BOOKMARK [2][-]{subsection.5.1}{Prerequisits}{section.5}
+\BOOKMARK [2][-]{subsection.5.2}{Hardware Setup}{section.5}
+\BOOKMARK [2][-]{subsection.5.3}{Booting}{section.5}
+\BOOKMARK [2][-]{subsection.5.4}{Howto Play}{section.5}
+\BOOKMARK [2][-]{subsection.5.5}{Game Rulez}{section.5}
+\BOOKMARK [2][-]{subsection.5.6}{Status LEDs}{section.5}
+\BOOKMARK [2][-]{subsection.5.7}{Screenshots and Videos}{section.5}
+\BOOKMARK [1][-]{section.6}{Improvements}{}
+\BOOKMARK [1][-]{section.7}{Conclusion}{}

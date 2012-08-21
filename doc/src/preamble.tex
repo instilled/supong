@@ -1,0 +1,89 @@
+\documentclass[12pt,a4paper,oneside]{scrartcl}
+
+\usepackage{ae}
+\usepackage{geometry}
+\usepackage{color, colortbl}
+
+
+%% language specific and text handling stuff
+%\usepackage{ngerman}  % use german labels for content, references etc.
+\usepackage[ansinew]{inputenc} % let us write german/french special chars
+\usepackage{textcomp} % for symbols like celsius etc.
+%\usepackage{soul} % highlighting with \hl{}
+
+
+%% listings
+\usepackage{listings}
+
+%% table packages
+\usepackage{longtable}
+\usepackage{multirow}
+
+
+%% use the makeindex package
+\usepackage{makeidx}
+\makeindex
+
+
+%% header packages
+\usepackage{fancyhdr}
+
+
+%% pdf processing
+\usepackage{ifpdf}
+
+
+%% graphics stuff
+\usepackage{wrapfig} % wrapping text around images
+
+% This makes images possible both in latex and pdftex 
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+   \pdffalse 
+\else
+   \pdfoutput=1
+   \pdftrue
+\fi
+
+\ifpdf
+   \usepackage[pdftex]{graphicx}
+\else
+   \usepackage{graphicx}
+\fi
+
+\usepackage{rotating}
+
+%% some color definitions for pdflatex
+% this is where the magic happens (propper pdf referencing)
+\definecolor{LinkColor}{rgb}{0.8,0.1,0.1} % nice links in pdfs
+\usepackage[%
+        pdftex,%
+        backref,%
+        pagebackref]%
+				{hyperref}
+\hypersetup{colorlinks=true,%
+        linkcolor=LinkColor,%
+        citecolor=LinkColor,%
+        filecolor=LinkColor,%
+        menucolor=LinkColor,%
+        pagecolor=LinkColor,%
+        urlcolor=LinkColor}
+
+
+%% format definitions
+\setlength{\unitlength}{1mm}
+\setlength{\parindent}{0mm} % no indentation for \par
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+
+%% paper border definitions
+\geometry{inner=2.2cm,top=2.5cm}
+
+
+% \usepackage{datetime}
+% \ddmmyyyydate
+% \renewcommand{\dateseparator}{.}
+
+
+%% versioning
+%\usepackage{svninfo}
