@@ -1,0 +1,9 @@
+#Wed Jun 25 10:45:08 CEST 2008
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.673070514=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\="\:" name\="PWD" operation\="replace" value\="${project_loc}/debug"/>\n<variable delimiter\="\:" name\="CWD" operation\="replace" value\="${project_loc}/debug"/>\n</environment>\n
+indexer/filesToParseUpFront=stdarg.h, stddef.h, sys/types.h
+indexer/indexAllFiles=true
+indexer/indexerId=org.eclipse.cdt.core.domsourceindexer
+indexer/skipReferences=false
+indexer/skipTypeReferences=false
+instance/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
